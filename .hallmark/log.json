@@ -1,0 +1,26 @@
+[
+ {
+  "mode": "build",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "coral",
+  "axes": "light/grotesk-sans/warm",
+  "hero": "none, app screen",
+  "nav": "top bar, four text tabs",
+  "footer": "none",
+  "imagery": "none, generated cotton texture only",
+  "photos": [],
+  "entry": "Coach",
+  "fingerprint": "app-screen/top-tabs/sheet-signature",
+  "sections": [
+   "coach chat with progress rail",
+   "review queue with tracked-edit sheet",
+   "agent builder",
+   "progress and telemetry"
+  ],
+  "signature": "the review sheet, a draft with your edits tracked in place on cotton",
+  "waived": [],
+  "prompt": "calm coaching workspace where a skeptical marketer builds a personal AI agent, reviews drafts and watches it learn from their edits",
+  "date": "2026-10-24"
+ }
+]

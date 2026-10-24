@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <filter id="cloud" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="2" seed="7" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.52  0 0 0 0 0.44  0 0 0 0 0.34  0 0 0 0.9 -0.32"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.92" numOctaves="2" seed="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.43  0 0 0 0 0.35  0 0 0 0.55 -0.18"/>
+    </filter>
+  </defs>
+  <rect width="360" height="360" filter="url(#cloud)" opacity="0.28"/>
+  <rect width="360" height="360" filter="url(#grain)" opacity="0.35"/>
+  <g stroke="#8a7a66" stroke-width="0.5" stroke-linecap="round" opacity="0.12" fill="none">
+    <path d="M22 40l7 3M96 210l6-4M170 88l8 2M250 300l-7 5M320 150l6 4M58 290l8-2M210 20l5 6M300 40l-6 3"/>
+  </g>
+</svg>
